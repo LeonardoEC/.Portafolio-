@@ -1,4 +1,3 @@
-import settingsLanguages from "../../asset/data/settingsPages/settingsLanguages.js";
 
 
 class SobreMiComponents {
