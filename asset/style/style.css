@@ -1,0 +1,43 @@
+/*  Normalizador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, #0071bd 50%, rgba(0, 0, 0, 1) 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999; 
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 0.3rem;
+  text-align: center;
+  z-index: 999; 
+}
+
+/* Clases generales */
+
+.gradient-text
+{
+  background-image: linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, #0071bd 50%, rgba(0, 0, 0, 1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

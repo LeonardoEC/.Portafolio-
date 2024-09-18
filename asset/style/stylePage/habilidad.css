@@ -1,0 +1,172 @@
+.habilidades
+{
+    padding: 5% 3%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+    text-align: center;
+    background-image: radial-gradient(#474bff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-color: #ffffff;
+}
+
+.container-habilidades
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-habilidades
+{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.sec-game-habilidades
+{
+    width: 50%;
+    border-right: 1px solid black;
+    padding: 1%;
+}
+
+.sec-web-habilidades
+{
+    width: 50%;
+    border-left: 1px solid black;
+    padding: 1%;
+}
+
+.habilidades-title
+{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* seccion de cartas */
+
+.cont-section-card{
+    margin-bottom: 2%;
+}
+
+.title-section-for{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.desc-for{
+    text-align: justify;
+}
+
+.cont-card-for{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* cartas */
+
+.card-for{
+    margin: 1%;
+    border: 2px solid grey;
+    border-radius: 0px 30px;
+    width: 20rem;
+    height: auto;
+    box-shadow: 10px 15px 10px black;
+    background-color: #0071bd;
+    color: white;
+}
+
+.title-card-for{
+    margin: 5%;
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* cartas central */
+
+.card-for-center{
+    height: 18rem;
+    font-size: 1.3rem;
+}
+
+.desc-card-for{
+    padding: 5%;
+}
+
+/* cartas abajo */
+
+.card-for-bot{
+    margin: 2% 0%;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.git-icon{
+    width: 4rem;
+    opacity: 0.5;
+}
+
+.git-icon:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+
+.btn-for{
+    border: none;
+    border-radius: 15px 0px;
+    padding: 2% 5%;
+}
+
+.btn-for:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
+
+
+@media screen and (min-width: 180px) and (max-width: 1280px) {
+
+    
+.container-habilidades
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sec-game-habilidades
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    border: none;
+    padding: 1%;
+}
+
+.sec-web-habilidades
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    border: none;
+    padding: 1%;
+}
+
+}

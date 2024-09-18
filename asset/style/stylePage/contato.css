@@ -1,0 +1,39 @@
+.contacto
+{
+    padding: 5% 3%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 40px;
+}
+
+.row-contactame
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-contactame
+{
+    font-size: 5rem;
+    font-style: italic;
+    color: white;
+}
+
+.text-contactame
+{
+    font-size: 2rem;
+    color: white;
+}
+
+.segundo-titulo-contactame
+{
+    font-size: 4rem;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}

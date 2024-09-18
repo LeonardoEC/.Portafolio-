@@ -1,0 +1,21 @@
+/* footer */ 
+
+.container-footer{
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.708);
+}
+
+.footer-en{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-en:hover{
+    color: grey;
+    transition: 1s;
+}

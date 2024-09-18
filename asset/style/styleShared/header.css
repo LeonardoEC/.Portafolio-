@@ -1,0 +1,94 @@
+/*  Cuerpo de la cabecera */
+
+.container-header{
+    padding: 1%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.708);
+    border-radius: 0px 0px 15px 15px;
+    height: 5%;
+    width: 100%;
+}   
+
+/*  -------------------------------------------------- */
+
+/*  logo - darlmode */
+
+.container-figure-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.icon-dm:hover{
+    cursor: pointer;
+}
+
+/*  -------------------------------------------------- */
+
+/*  Navegacion */
+
+.container-nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1%;
+    margin: 0% 0.1%;
+}
+
+.btn-nav{
+    text-align: center;
+    width: 10rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.btn-nav:hover{
+    transition: 1s;
+    background-color: lightgray;
+    color: black;
+}
+
+.active{
+    background-color: lightgray;
+    color: black;
+}
+
+/*  -------------------------------------------------- */
+
+/* Responsive */
+
+@media screen and (min-width: 180px) and (max-width: 1280px){
+    .container-header{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .container-figure-header{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .container-nav{
+        margin: 2% 0%;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-nav{
+        width: 80%;
+        text-align: center;
+        margin: 1.5% 0%;
+    }
+
+}
+
+/*  -------------------------------------------------- */
