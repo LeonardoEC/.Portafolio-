@@ -29,12 +29,12 @@ class ProyectoContainer
                 </div>
                 <div class="row-proyectos-mid">
                     <h4 class="project-title">${this.projectsDataPage.game.title}</h4>
-                    <p>${this.projectsDataPage.game.text}</p>
+                    <p class="project-text">${this.projectsDataPage.game.text}</p>
                     <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
                 <div class="row-proyectos-dow">
-                    <p class="btn-proyectos-l">Git</p>
-                    <p class="btn-proyectos-r">Itch</p>
+                    <a href="" class="btn-proyectos-l">Git</a>
+                    <a href="" class="btn-proyectos-r">Itch</a>
                 </div>
             </div>
             
@@ -48,12 +48,12 @@ class ProyectoContainer
                 </div>
                 <div class="row-proyectos-mid">
                     <h4 class="project-title">${this.projectsDataPage.web.title}</h4>
-                    <p>${this.projectsDataPage.web.text}</p>
+                    <p class="project-text">${this.projectsDataPage.web.text}</p>
                     <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
                 <div class="row-proyectos-dow">
-                    <p class="btn-proyectos-l">Git</p>
-                    <p class="btn-proyectos-r">Ver</p>
+                    <a href="" class="btn-proyectos-l">Git</a>
+                    <a href="" class="btn-proyectos-r">Ver</a>
                 </div>
             </div>
         `;

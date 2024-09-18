@@ -1,6 +1,6 @@
 .habilidades
 {
-    padding: 5% 3%;
+    padding: 5%;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -43,7 +43,7 @@
 
 .habilidades-title
 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-style: italic;
     font-weight: bold;
 }
