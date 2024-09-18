@@ -5,10 +5,10 @@ class ProyectoContainer
         title_section_G: "Juegos",
         title_section_W: "Webs",
         game: {
-            title: "Plataformero",
+            title: "Plataformer 2D",
             text: "Juego creado con Academika",
-            img: "",
-            url_Git: "",
+            img: "../asset/resource/img/Leonardo_Phoenix_Create_an_atmospheric_2D_platformer_game_illu_3.jpg",
+            url_Git: "",                                                                                                                                                                      
             url_Itch: "",
         },
         web: {
@@ -23,31 +23,39 @@ class ProyectoContainer
 
     static renderProyecto() {
         return `
-            <section class="container-proyectos-game">
-                <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_G}</h3>
-                <div>
-                    <h4>${this.projectsDataPage.game.title}</h4>
+            <div class="container-proyectos-game">
+                <div class="row-proyectos-top">
+                    <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_G}</h3>
+                </div>
+                <div class="row-proyectos-mid">
+                    <h4 class="project-title">${this.projectsDataPage.game.title}</h4>
                     <p>${this.projectsDataPage.game.text}</p>
+                    <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
-                <div>
-                    <p>Git</p>
-                    <p>Itch</p>
+                <div class="row-proyectos-dow">
+                    <p class="btn-proyectos-l">Git</p>
+                    <p class="btn-proyectos-r">Itch</p>
                 </div>
-            </section>
-            <section class="container-proyectos-title">
+            </div>
+            
+            <div class="container-proyectos-title">
                 <h3>${this.projectsDataPage.title}</h3>
-            </section>
-            <section class="container-proyectos-web">
-                <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_W}</h3>
-                <div>
-                    <h4>${this.projectsDataPage.web.title}</h4>
+            </div>
+
+            <div class="container-proyectos-web">
+                <div class="row-proyectos-top">
+                    <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_W}</h3>
+                </div>
+                <div class="row-proyectos-mid">
+                    <h4 class="project-title">${this.projectsDataPage.web.title}</h4>
                     <p>${this.projectsDataPage.web.text}</p>
+                    <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
-                <div>
-                    <p>Git</p>
-                    <p>Itch</p>
+                <div class="row-proyectos-dow">
+                    <p class="btn-proyectos-l">Git</p>
+                    <p class="btn-proyectos-r">Ver</p>
                 </div>
-            </section>
+            </div>
         `;
     }
 

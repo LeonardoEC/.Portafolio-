@@ -32,15 +32,6 @@ class SobreMiComponents {
                 url: "https://www.credly.com/badges/f619fdef-d01c-4820-bc0f-af7f70fb2840/public_url"
               }
             },
-            GitHub:
-            {
-              formacion:
-              {
-                title: "GitHub",
-                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/200px-Google_Drive_icon_%282020%29.svg.png",
-                url: "https://drive.google.com/drive/folders/1C_Ujm3LAD61hIDgvLXkAKcprumt_yEhe"
-              }
-            },
             General:
             {
               formacion:
@@ -48,6 +39,15 @@ class SobreMiComponents {
                 title: "Certificados Academicos",
                 img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/200px-Google_Drive_icon_%282020%29.svg.png",
                 url: "https://drive.google.com/drive/folders/1C_Ujm3LAD61hIDgvLXkAKcprumt_yEhe"
+              }
+            },
+            GitHub:
+            {
+              formacion:
+              {
+                title: "GitHub",
+                img: "https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp",
+                url: "https://github.com/LeonardoEC"
               }
             },
           }
@@ -94,17 +94,17 @@ class SobreMiComponents {
   static renderSobreMi() {
 
     return `
-                    <section class="title-sobre-mi">
-                        <h2 class="gradient-text">${this.aboutMeData.title}</h2>
+                    <section class="row-title-sobre-mi">
+                        <h2 class="gradient-text title-sobre-mi">${this.aboutMeData.title}</h2>
                     </section>
                     <div class="row-sobre-mi">
                         ${this.allSkillsMap}
                     </div>
-                    <div class="row-sobre-mi">
+                    <div class="row-sobre-mi-trayectoria">
                         <div class="gradiant-border-logros">
                             <div class="container-card-data-logros">
                               <div>
-                                <h1>Trayectoria academica</h1>
+                                <h3 class="card-title-sobre-mi">Trayectoria academica</h1>
                               </div>
                               <div class="container-card-data-medallas">
                                 ${this.achievements}

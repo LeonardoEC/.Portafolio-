@@ -1,12 +1,17 @@
 .proyectos {
-    padding: 5% 3%;
-    height: 100vh;
+    padding: 5%;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     color: black;
     gap: 10px;
 }
+
+
+
+
+/* Fila 1 */
 
 .container-proyectos-game {
     border-radius: 15px;
@@ -16,19 +21,24 @@
     box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
     -webkit-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
     -moz-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Fila 2 */
 
 .container-proyectos-title {
     color: white;
     align-content: center;
     text-align: center;
-    font-size: 300%;
+    font-size: 5rem;
     width: 100%;
     letter-spacing: 1rem;
     font-weight: bold;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
-
 }
+
+/* Fila 3 */
 
 .container-proyectos-web {
     border-radius: 15px;
@@ -39,33 +49,93 @@
     box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
     -webkit-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
     -moz-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
+    display: flex;
+    flex-direction: column;
 }
 
+/* general */
+
+.row-proyectos-top
+{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .titulo-proyectos {
-    text-align: center;
-    padding: 1% 0;
-    font-size: 2rem;
+    font-style: italic;
+    font-size: 3rem;
+    height: auto;
 }
 
-@media screen and (min-width: 180px) and (max-width: 1180px) {
 
+.row-proyectos-mid
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    border-top: 1px solid grey;
+}
+
+.img-proyecto
+{
+    width: 100%;
+    height: 210px;
+}
+
+
+.row-proyectos-dow
+{
+    display: flex;
+    height: 10%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.btn-proyectos-l
+{
+    width: 50%;
+    border: 2px solid rgb(143, 143, 143);
+    border-radius: 0 0 0 15px;
+}
+
+.btn-proyectos-r
+{
+    width: 50%;
+    border: 2px solid rgb(143, 143, 143);
+    border-radius: 0 0 15px 0;
+}
+
+
+
+@media screen and (min-width: 180px) and (max-width: 1280px) {
+
+    .proyectos {
+        justify-content: space-around;
+    }
 
     .container-proyectos-game {
         align-self: center;
         width: 90%;
-
     }
 
     .container-proyectos-title {
-        font-size: 25px;
+        font-size: 2rem;
     }
 
     .container-proyectos-web {
         align-self: center;
         width: 90%;
-
     }
+
+    .img-proyecto
+    {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
 
 
 }
