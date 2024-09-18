@@ -1,7 +1,8 @@
 
 class InicioComponents {
 
-    static homeDataPage= {
+    static homeDataPage= 
+    {
         img:"../foto/Final.png",
         title: "Leonardo Daniel Vivas",
         text: "Saludos y bienvenido a mi portafolio, Soy un estudiante de Desarrollo web y mi stack es M.E.R.N. Estoy en búsqueda de un puesto de trabajo como programador para mejorar mis conocimientos, habilidades y obtener más experiencia en el sector IT"

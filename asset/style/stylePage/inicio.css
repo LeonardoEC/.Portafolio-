@@ -5,6 +5,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 5%;
 }
 
 /* Filas */
@@ -22,8 +23,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 3%;
-    width: 50%;
-    text-align: justify;
+    width: 70%;
 }
 
 .title-presentacion
@@ -36,7 +36,6 @@
 
 .text-presentacion
 {
-    text-align: justify;
     font-size: 1.3rem;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
     letter-spacing: 3px;

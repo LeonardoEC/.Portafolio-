@@ -1,8 +1,6 @@
-
-
 class SobreMiComponents {
 
-  static aboutMeDataPage =
+  static aboutMeDataPage=
     {
       title: "Sobre mi",
       sectionOne: {
@@ -58,11 +56,11 @@ class SobreMiComponents {
     }
 
 
-  static aboutMeData = aboutMeDataPage;
+  static aboutMeData = this.aboutMeDataPage;
 
 
-  static sectionOne = aboutMeDataPage.sectionOne;
-  static sectionTwo = aboutMeDataPage.sectionTwo;
+  static sectionOne = this.aboutMeDataPage.sectionOne;
+  static sectionTwo = this.aboutMeDataPage.sectionTwo;
 
 
   static allSkillsMap = Object.entries(this.sectionOne).map(([key, value]) => {
@@ -79,7 +77,6 @@ class SobreMiComponents {
   static achievements = Object.entries(this.sectionTwo.achievements.medals).map(([platform, medals]) => {
     return `
           <div class="card-logros">
-            <h2>${platform}</h2>
             <div class="card-data-logros">
               ${Object.values(medals).map(medal => `
                 <div>

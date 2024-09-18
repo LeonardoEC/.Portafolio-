@@ -1,11 +1,53 @@
-import settingsLanguages from "../asset/data/settingsPages/settingsLanguages.js";
+
 
 class HabilidadComponent {
 
-    static habilidadesData = settingsLanguages.sp.pagesData.Skills;
+    static tecnologisDataPage= {
+        title: "Habilidades",
+        sectionGame: {
+            title: "Videojuegos",
+            title_section_GL: "Lenguajes principales",
+            languas: {
+                Cs:{
+                    title:"C#",
+                    description:"Este lenguaje lo voy incorporando de a poco ya que solo lo utilizo con unity de momento, aunque tambien estoy interesado en usarlo para crear software de escritorio"
+                }
+            },
+            title_section_E: "Motor",
+            engine: {
+                Unity:{
+                    title:"Unity",
+                    description:"Mi más reciente incorporación, aprender a usar este motor de videojuegos, sin duda me ha ayudado a expandir muchísimo mi conocimiento con la programación orientada a objeto y la importancia de tener un buen orden a la hora de llevar a cabo un proyecto"            
+                }
+            }
+        },
+        sectionWeb: {
+            title: "Web",
+            title_section_WL: "Lenguajes principales",
+            languas: {
+                JavaScript:{
+                    title:"JavaScript",
+                    description:"Este lenguaje lo voy incorporando de a poco ya que solo lo utilizo con unity de momento, aunque tambien estoy interesado en usarlo para crear software de escritorio"
+                },
+            },
+            title_section_FW: "Frameworks",
+            framewoks: {
+                React:{
+                    title:"React",
+                    description:"Mi framework favorito con el cual más práctico cuando poseo tiempo, lo que más me gusta es su facilidad de uso y personalización por todas sus herramientas"
+                },
+                Express:{
+                    title:"Express",
+                    description: "El back-end no es precisamente mi fuerte, con Express no me resulta tan complicado, ya que siento que es muy parecido a React lo cual me facilita mucho comprender como hacer las cosas."
+                }
+            }
+        }
+    }
 
-    static sectionGame = settingsLanguages.sp.pagesData.Skills.sectionGame;
-    static sectionWeb = settingsLanguages.sp.pagesData.Skills.sectionWeb;
+    static habilidadesData = this.tecnologisDataPage;
+
+    static sectionGame = this.tecnologisDataPage.sectionGame;
+    static sectionWeb = this.tecnologisDataPage.sectionWeb;
 
     static secGameLanguas = Object.entries(this.sectionGame.languas).map(([language, data]) => {
         return `
@@ -112,25 +154,3 @@ class HabilidadComponent {
 
 export default HabilidadComponent;
 
-
-/*
-
-
-                    <section class="cont-section-card">
-                        <h2 class="title-section-for">Lenguajes principales</h2>
-                        <div class="cont-card-for">
-                            <article class="card-for">
-                                <h4 class="title-card-for">C#</h4>
-                                <div class="card-for-center">
-                                    <p class="desc-card-for">
-                                        Este lenguaje lo voy incorporando de a poco ya que solo lo utilizo con unity de
-                                        momento, aunque tambien estoy interesado en usarlo para crear software de
-                                        escritorio
-                                    </p>
-                                </div>
-                            </article>
-                        </div>
-                    </section>
-
-
-*/
