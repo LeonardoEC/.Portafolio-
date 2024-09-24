@@ -1,39 +1,64 @@
-.contacto
-{
+.contacto {
     padding: 5% 3%;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: black;
     gap: 40px;
 }
 
-.row-contactame
-{
+.row-contactame {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.titulo-contactame
-{
+.titulo-contactame {
     font-size: 5rem;
     font-style: italic;
     color: white;
 }
 
-.text-contactame
-{
+.text-contactame {
     font-size: 2rem;
     color: white;
 }
 
-.segundo-titulo-contactame
-{
+.segundo-titulo-contactame {
     font-size: 4rem;
     font-style: italic;
     color: white;
     text-align: center;
+}
+
+
+@media screen and (min-width: 180px) and (max-width: 1280px) {
+
+    .row-contactame {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo-contactame {
+        font-size: 3rem;
+        font-style: italic;
+        color: white;
+    }
+
+    .text-contactame {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .segundo-titulo-contactame {
+        font-size: 3rem;
+        font-style: italic;
+        color: white;
+        text-align: center;
+    }
 }

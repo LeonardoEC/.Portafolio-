@@ -1,5 +1,3 @@
-
-
 class HabilidadComponent {
 
     static tecnologisDataPage= {
