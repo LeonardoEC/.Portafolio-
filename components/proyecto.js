@@ -7,7 +7,7 @@ class ProyectoContainer
         game: {
             title: "Plataformer 2D",
             text: "Juego creado con Academika",
-            img: "../asset/resource/img/Leonardo_Phoenix_Create_an_atmospheric_2D_platformer_game_illu_3.jpg",
+            img: "asset/resource/img/Leonardo_Phoenix_Create_an_atmospheric_2D_platformer_game_illu_3.jpg",
             url_Git: "",                                                                                                                                                                      
             url_Itch: "",
         },

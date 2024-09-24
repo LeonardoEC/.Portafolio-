@@ -7,18 +7,18 @@ class ContactComponent {
         redes: {
             linkedin: {
                 url: "https://www.linkedin.com/in/leonardo-d-vivas/",
-                img: "../asset/resource/icon/linkedin.png"
+                img: "asset/resource/icon/linkedin.png"
             },
             gmail: {
                 url: "LeonardoDanielAV@proton.me",
-                img: "../asset/resource/icon/gmail.png"
+                img: "asset/resource/icon/gmail.png"
             }
         },
         titleCurriculum: "Mi curriculum",
         textCurriculum: "Tambien te invito a descargar mi curriculum, para saber aun mas sobre mi trayectoria laboral",
         curriculum:{
             url: "https://drive.google.com/file/d/1gkUbIPhKXkVCe9AOGdtr78Tat8aoj1Ad/view?usp=sharing",
-            img: "../asset/resource/icon/paper.png"
+            img: "asset/resource/icon/paper.png"
         }
     }
 
