@@ -28,8 +28,8 @@ class ProyectoContainer
                     <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_G}</h3>
                 </div>
                 <div class="row-proyectos-mid">
-                    <h4 class="project-title">${this.projectsDataPage.game.title}</h4>
-                    <p class="project-text">${this.projectsDataPage.game.text}</p>
+                    <h4 class="project-title">En construccion</h4>
+                    <p class="project-text">Muy Pronto sera actualiado</p>
                     <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
                 <div class="row-proyectos-dow">
@@ -47,8 +47,8 @@ class ProyectoContainer
                     <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_W}</h3>
                 </div>
                 <div class="row-proyectos-mid">
-                    <h4 class="project-title">${this.projectsDataPage.web.title}</h4>
-                    <p class="project-text">${this.projectsDataPage.web.text}</p>
+                    <h4 class="project-title">En construccion</h4>
+                    <p class="project-text">Muy Pronto sera actualiado</p>
                     <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
                 </div>
                 <div class="row-proyectos-dow">

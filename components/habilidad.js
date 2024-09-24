@@ -25,7 +25,7 @@ class HabilidadComponent {
             languas: {
                 JavaScript:{
                     title:"JavaScript",
-                    description:"Este lenguaje lo voy incorporando de a poco ya que solo lo utilizo con unity de momento, aunque tambien estoy interesado en usarlo para crear software de escritorio"
+                    description:"Este lenguaje lo dedico principalmente para todo lo relacionado con la web ya sea tanto en el frontend como en el backend"
                 },
             },
             title_section_FW: "Frameworks",
