@@ -4,7 +4,7 @@ class FooterComponents {
 
         return `
         <div>
-            <a class="footer-en" href="https://github.com/LeonardoEC/Portafolio/tree/V.0.0.1">Portafolio V.0.0.1 - Github</a>
+            <a class="footer-en" href="https://github.com/LeonardoEC/.Portafolio-">Portafolio V.0.0.1 - Github</a>
         </div>
         `;
     }
