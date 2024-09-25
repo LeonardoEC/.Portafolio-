@@ -8,11 +8,11 @@
 
 Estoy trabajando en remasterizar algunos de mis proyectos más antiguos para mejorar su diseño y funcionalidad los cuales pronto formaran parte del portofio en una proxima actualizacion.
 
-** Desarrollo de videojuegos:**  
+**Desarrollo de videojuegos:**  
 
 Actualmente estoy inmerso en el emocionante mundo de la creación de videojuegos. Pronto podrás encontrar demos jugables de mis proyectos.
 
-** Aprendizaje continuo: ** 
+**Aprendizaje continuo:** 
 
 Mi pasión por la tecnología me lleva a estar constantemente aprendiendo y explorando nuevas herramientas y lenguajes de programación.
 
