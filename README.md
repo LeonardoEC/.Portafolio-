@@ -24,7 +24,7 @@ Mi pasión por la tecnología me lleva a estar constantemente aprendiendo y expl
 
 **Contacto:**
 
-* **Correo electrónico:** [(LeonardoDanielAV@proton.me)]
-* **LinkedIn:** [(https://www.linkedin.com/in/leonardo-d-vivas/)]
+* **Correo electrónico:** [LeonardoDanielAV@proton.me]
+* **LinkedIn:** [https://www.linkedin.com/in/leonardo-d-vivas/]
 
 ¡Gracias por visitar mi portafolio!
