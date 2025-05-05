@@ -3,7 +3,7 @@ class ProyectoContainer
     static projectsDataPage = {
         title: "Proyectos",
         title_section_G: "Juegos",
-        title_section_W: "Webs",
+        title_section_W: "",
         game: {
             title: "Plataformer 2D",
             text: "Juego creado con Academika",
@@ -13,10 +13,10 @@ class ProyectoContainer
         },
         web: {
             title: "Amazing Events",
-            text: "Pagina web creada con MindHub",
-            img: "",
-            url_Git: "",
-            url_Web: "",
+            text: "Pagina web creada durante el bootcamp de MindHub, en donde conecte una API de eventos con una pagina web, utilizando HTML, CSS y JS.",
+            img: "asset/resource/img/AE.png",
+            url_Git: "https://github.com/LeonardoEC/Amazing-Events-Vivas/tree/V2",
+            url_Web: "https://leonardoec.github.io/Amazing-Events-Vivas/index.html",
         }
     }
     
@@ -44,20 +44,25 @@ class ProyectoContainer
 
             <div class="container-proyectos-web">
                 <div class="row-proyectos-top">
-                    <h3 class="titulo-proyectos">${this.projectsDataPage.title_section_W}</h3>
                 </div>
                 <div class="row-proyectos-mid">
-                    <h4 class="project-title">En construccion</h4>
-                    <p class="project-text">Muy Pronto sera actualiado</p>
-                    <img class="img-proyecto" src="${this.projectsDataPage.game.img}" alt="">                                                                                   
+                    <img class="img-proyecto" src="${this.projectsDataPage.web.img}" alt="">                                                                                   
                 </div>
                 <div class="row-proyectos-dow">
-                    <a href="" class="btn-proyectos-l">Git</a>
-                    <a href="" class="btn-proyectos-r">Ver</a>
+                    <a href="${this.projectsDataPage.web.url_Git}" class="btn-proyectos-l">GitHub</a>
+                    <a href="${this.projectsDataPage.web.url_Web}" class="btn-proyectos-r">Visitar</a>
                 </div>
             </div>
         `;
     }
+
+    /*
+                        <h2 class="titulo-proyectos">${this.projectsDataPage.title_section_W}</h2>
+                        
+                        <h4 class="project-title">${this.projectsDataPage.web.title}</h4>
+                    <p class="project-text">${this.projectsDataPage.web.text}</p>
+
+    */
 
 }
 

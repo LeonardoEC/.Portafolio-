@@ -9,8 +9,6 @@
 }
 
 
-
-
 /* Fila 1 */
 
 .container-proyectos-game {
@@ -47,17 +45,16 @@
     width: 50%;
     height: 75%;
     background-color: white;
-    box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
-    -webkit-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
-    -moz-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75) inset;
+    box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.95);
+    -webkit-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 9px 106px -36px rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
 }
 
 /* general */
 
-.row-proyectos-top
-{
+.row-proyectos-top {
     height: 20%;
     display: flex;
     justify-content: center;
@@ -68,59 +65,69 @@
     font-style: italic;
     font-size: 3rem;
     height: auto;
+    margin-bottom: 1%;
 }
 
 
-.row-proyectos-mid
-{
+.row-proyectos-mid {
     display: flex;
     flex-direction: column;
     height: 80%;
 }
 
-.project-title
-{
-    font-size: 2rem;
+.project-title {
+    font-size: 2.5rem;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #0071bd;
+    font-weight: bold;
 }
 
-.project-text
-{
-    font-size: 1.5rem;
+.project-text {
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+    padding: 0 2%;
+    text-align: justify;
+    color: #0071bd;
+    font-weight: bold;
 }
 
-.img-proyecto
-{
+.img-proyecto {
     width: 100%;
-    height: 210px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
 }
 
 
-.row-proyectos-dow
-{
+.row-proyectos-dow {
     display: flex;
     height: 10%;
     justify-content: space-around;
     text-align: center;
 }
 
-.btn-proyectos-l
-{
+.btn-proyectos-l {
     width: 50%;
+    padding: 1%;
     border: 2px solid rgb(143, 143, 143);
     border-radius: 0 0 0 15px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    color: #0071bd;
+
 }
 
-.btn-proyectos-r
-{
+.btn-proyectos-r {
     width: 50%;
+    padding: 1%;
     border: 2px solid rgb(143, 143, 143);
     border-radius: 0 0 15px 0;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    color: #0071bd;
 }
 
 
@@ -145,8 +152,7 @@
         width: 90%;
     }
 
-    .img-proyecto
-    {
+    .img-proyecto {
         width: 100%;
         height: auto;
         overflow: hidden;
