@@ -1,17 +1,18 @@
 class SobreMiComponents {
 
-  static aboutMeDataPage=
+  static aboutMeDataPage =
     {
       title: "Sobre mi",
       sectionOne: {
-        skills:
+        DDV:
         {
-          title: "Mi perfil",
-          text: "Como técnico superior en desarrollo web y aplicaciones móviles, he adquirido habilidades sólidas en programación y diseño de interfaces. Sin embargo, mi pasión por los videojuegos me ha llevado a especializarme en este ámbito. Me encanta la programación y disfruto del proceso de transformar ideas en experiencias interactivas. Soy un aprendiz autodidacta y estoy siempre dispuesto a asumir nuevos desafíos, ya sea aprendiendo nuevas tecnologías o resolviendo problemas complejos."
+          title: "Desarollador y Diseñador de videojuegos Unity",
+          text: "Soy un apasionado por los videojuegos y la programación. Combinar mis dos pasiones me ha llevado a especializarme en el desarrollo de videojuegos en Unity y el lenguaje de programación C#. Para mejorar día a día, suelo crear algunos minijuegos y publicarlos en mi GitHub para irlos mejorando. Actualmente, estoy estudiando la carrera de diseñador y desarrollo de videojuegos en la universidad de Salta. Siempre estoy buscando nuevos desafíos y oportunidades para crecer como desarrollador y diseñador de videojuegos."
         },
-        softSkills: {
-          title: "Habilidades blandas",
-          text: "Soy una persona responsable y comprometida con mis tareas. Me caracterizo por mi honestidad y mi ética de trabajo. No tengo miedo de enfrentar nuevos desafíos y siempre estoy dispuesto a aprender cosas nuevas. Además, soy un gran trabajador en equipo y me adapto fácilmente a diferentes situaciones. Me gusta ayudar a mis compañeros y creo que la colaboración es clave para alcanzar el éxito."
+        DW: 
+        {
+          title: "Programador FullStack M.E.R.N",
+          text: "Si bien soy un programador fullstack, me especializo mas en el backend ya que el frontend me resulta un poco tedioso aunque no tengo problema en trabajar en el si es necesario. Tambien eh realizados multiples, cursos y simulacros laborales, que si bien en ellos no he creado projectos muy relevantes me han servido para aprender a trabajar en equipo y a utilizar herramientas como GitHub, Trello, Slack, entre otras. En cuanto a mi stack de trabajo, me gusta utilizar React.js para el frontend y Node.js con Express.js para el backend."
         },
       },
       sectionTwo: {
@@ -41,6 +42,16 @@ class SobreMiComponents {
                 url: "https://drive.google.com/drive/folders/1C_Ujm3LAD61hIDgvLXkAKcprumt_yEhe"
               }
             },
+            /*Unity:
+            {
+              formacion:
+              {
+                title: "Unity",
+                img: "",
+                url: ""
+              }
+            },
+            */
             GitHub:
             {
               formacion:
