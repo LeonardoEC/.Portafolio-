@@ -43,9 +43,7 @@ class HeaderComponent {
     }).join('');
 
     return `
-            <nav class="container-nav">
                 ${navigationLinks}
-            </nav>
         `;
   }
 
@@ -56,6 +54,11 @@ class HeaderComponent {
     }).join('');
 
     return `
+          <div class="container-nav">
+            <div>
+              <h1 class="logo">Leonardo Daniel Vivas</h1>
+            </div>
+          </div>
           <nav class="container-nav">
             ${navigationLinks}
           </nav>

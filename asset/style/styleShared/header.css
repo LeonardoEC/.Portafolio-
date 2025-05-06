@@ -3,7 +3,7 @@
 .container-header{
     padding: 1%;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.708);
     border-radius: 0px 0px 15px 15px;
     height: 5%;

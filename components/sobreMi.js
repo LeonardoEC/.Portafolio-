@@ -57,7 +57,7 @@ class SobreMiComponents {
               formacion:
               {
                 title: "GitHub",
-                img: "https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp",
+                img: "https://img.icons8.com/?size=100&id=12598&format=png&color=000000",
                 url: "https://github.com/LeonardoEC"
               }
             },

@@ -82,8 +82,9 @@
     height: auto;
     background: linear-gradient(160deg, rgba(0, 0, 0, 1) 0%, #0071bd 50%, rgba(0, 0, 0, 1) 100%);
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 
 
 .container-card-data-logros {
@@ -97,6 +98,7 @@
     -moz-box-shadow: 10px 10px 25px 3px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 25px 3px rgba(0, 0, 0, 0.75);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;

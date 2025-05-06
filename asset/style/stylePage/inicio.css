@@ -54,6 +54,15 @@
     width: 400px;
 }
 
+.container-btn-presentacion
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+}
+
 /* ------------------ */
 
 /* Responsive */

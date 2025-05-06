@@ -17,7 +17,7 @@ class ContactComponent {
         titleCurriculum: "Mi curriculum",
         textCurriculum: "Tambien te invito a descargar mi curriculum, para saber aun mas sobre mi trayectoria laboral",
         curriculum:{
-            url: "https://drive.google.com/file/d/1gkUbIPhKXkVCe9AOGdtr78Tat8aoj1Ad/view?usp=sharing",
+            url: "https://drive.proton.me/urls/JCJ8JN3E5G#5OZAOB8lOcid",
             img: "asset/resource/icon/paper.png"
         }
     }
@@ -38,7 +38,7 @@ class ContactComponent {
                 </p>
             </div>
             <div>
-                <a href="${this.sectionRed.linkedin.url}"><img src="${this.sectionRed.linkedin.img}" alt="linkedin"></a>
+                <a href="${this.sectionRed.linkedin.url} target="_blank"><img src="${this.sectionRed.linkedin.img}" alt="linkedin"></a>
                 <a href="mailto:${this.sectionRed.gmail.url}"><img src="${this.sectionRed.gmail.img}" alt="gmail"></a>
             </div>
             <div>
@@ -50,7 +50,7 @@ class ContactComponent {
                 </p>
             </div>
             <div>
-                <a href="${this.sectionCurriculum.url}"><img src="${this.sectionCurriculum.img}" alt="curriculum"></a>
+                <a href="${this.sectionCurriculum.url}" target="_blank"><img src="${this.sectionCurriculum.img}" alt="curriculum"></a>
             </div>
         `;
     }
